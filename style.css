@@ -1,0 +1,38 @@
+body {
+  font-family: Helvetica, sans-serif;
+  /* letter-spacing: 0.125px; */
+}
+
+#board {
+  padding-top: 3em;
+  text-align: center;
+}
+.row > div {
+    float: left;
+    height: 100px;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.row {
+  clear: both;
+  margin: 0 auto;
+  width: 302px;
+}
+
+.top {
+    border-bottom: 1px solid black
+  }
+
+.left {
+    border-right: 1px solid black;
+}
+
+.right {
+    border-left: 1px solid black;
+}
+
+.bottom {
+    border-top: 1px solid black
+}
